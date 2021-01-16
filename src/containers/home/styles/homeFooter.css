@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.footer {
+    height: fit-content;
+    width: 100%;
+    background-color: rgba(35, 89, 114, 1);
+    bottom: -15em;
+    position: absolute;
+}
+
+.social__footer {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.social--icon {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    color: white;
+}
+
+.social--icon:hover {
+    color: rgba(5, 5, 5, 0.7);
+}
+
+.fa-lg {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.copy__right__cont {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin-top: 2em;
+}
+
+.copy__footer {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2em;
+    margin-top: 1em;
+}

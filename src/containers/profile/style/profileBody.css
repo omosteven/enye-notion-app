@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+.profileBody {
+    margin-top: 7em;
+    width: 90%;
+    margin-left: 5%;
+    /* width: 50%;
+    margin-left: 25%; */
+    /* display: flex; */
+}
+
+.profileBodyLeft {
+    height: 80vh;
+    width: 55%;
+    /* background-color: red; */
+    /* display: inline-block; */
+    /* float: left; */
+    position: absolute;
+    margin-right: 1%;
+    /* display: none; */
+}
+
+.profileBodyRight {
+    float: right;
+    width: 43%;
+    /* float: right; */
+}
+
+.profileBodyLeft__card {
+    width: 90%;
+    background-color: white;
+    min-height: 70vh;
+    box-shadow: 0px 1px 5px rgba(35, 89, 114, 0.1), 0px 0px 5px rgba(35, 89, 114, 0.1);
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+
+.center__profile__icon {
+    text-align: center;
+}
+
+.profile--icon--side {
+    margin-top: 1.8em;
+    color: rgba(35, 89, 114, 0.1);
+}
+
+@media screen and (max-width:720px) {
+    .profileBodyLeft {
+        display: none;
+    }
+    .profileBodyRight {
+        float: left;
+        width: 100%;
+    }
+}

@@ -1,0 +1,154 @@
+body {
+    background-color: red;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.bodyContainer {
+    margin-top: 4.5em;
+    width: 90%;
+    margin-left: 5%;
+    /* position: absolute; */
+}
+
+.bodyTopBar {
+    background-color: rgba(250, 250, 250, 1);
+    margin-top: 0em;
+    height: 4em;
+}
+
+.bodyTopBar__profileText {
+    display: inline-block;
+    color: rgba(35, 89, 114, 1);
+    font-weight: bold;
+}
+
+.bodyTopBar__right {
+    display: inline-block;
+    float: right;
+}
+
+.bodyTopBar__filterText {
+    color: rgb(35, 89, 114);
+}
+
+.bodyTopBar__select {
+    background-color: white;
+    border-radius: 0.2em;
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    -ms-border-radius: 0.2em;
+    -o-border-radius: 0.2em;
+    height: 2.5em;
+    color: rgba(35, 89, 114, 1);
+    border: none;
+    border: 1px solid rgba(35, 89, 114, 0.3);
+}
+
+.bodyLeftRight {
+    /* display: flex; */
+    margin-top: 2em;
+}
+
+.bodyLeft {
+    float: left;
+    width: 55%;
+    background-color: white;
+    /* height: 60vh; */
+    /* border: 1px solid rgba(35, 89, 114, 0.3); */
+    box-shadow: 0px 1px 5px rgba(35, 89, 114, 0.1), 0px 0px 5px rgba(35, 89, 114, 0.1);
+    margin-top: 1em;
+    position: absolute;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+
+.bodyLeft__container {
+    overflow-y: scroll;
+    height: 64.5vh;
+    /* height: fit-content; */
+    /* height: 100vh; */
+}
+
+.bodyRight {
+    float: right;
+    width: 43%;
+    height: fit-content;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -ms-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+}
+
+.bodyLeft__card {
+    height: 8em;
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: rgba(5, 5, 5, 0.7);
+    margin-top: 1em;
+    border-radius: 0.3em;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 1px rgba(35, 89, 114, 0.1), 0px 0px 1px rgba(35, 89, 114, 0.1);
+    -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -ms-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    /* position: absolute; */
+}
+
+.bodyLeft__card__title {
+    margin-left: 1em;
+    margin-top: 0.5em;
+}
+
+.bodyLeft__card__gender {
+    margin-top: -0.5em;
+    margin-left: 1.5em;
+}
+
+.bodyLeft__card__below {
+    margin-top: -0.5em;
+    display: flex;
+    margin-left: 1em;
+}
+
+.bodyLeft__nav {
+    height: 5vh;
+    background-color: rgba(35, 89, 114, 0.9);
+    bottom: 0;
+    border-radius: 0 0 0.5em 0.5em;
+    -webkit-border-radius: 0 0 0.5em 0.5em;
+    -moz-border-radius: 0 0 0.5em 0.5em;
+    -ms-border-radius: 0 0 0.5em 0.5em;
+    -o-border-radius: 0 0 0.5em 0.5em;
+    color: white;
+    text-align: center;
+}
+
+.cardLink {
+    margin-top: -0.9em;
+}
+
+.card__link {
+    /* float: right; */
+    color: white;
+    margin-left: 1em;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width:720px) {
+    .bodyLeft {
+        float: left;
+        width: 95%;
+        /* height: 50vh; */
+    }
+    .bodyRight {
+        display: none;
+    }
+}
